@@ -1,0 +1,14 @@
+{
+  "require": {
+    "php": ">=5.5",
+    "johnpbloch/wordpress": "*.*.*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "move wp/wp-content ./wp-content"
+    ]
+  }
+}
