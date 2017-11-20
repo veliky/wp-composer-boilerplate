@@ -17,7 +17,7 @@ It is a simple way to make Wordpress site using only `git clone` and `composer u
 2. WP_HOME and other constants define the url of the site from `$_SERVER`, and not from the DB.
   * This allow to deploy the site with the help of the `wp-config.php` and do not replace the domain name in the DB.
 
-3. 4 `WP_DEBUG` constants for logs and scripts.
+3. Commented 4 constants in wp-config.php: `WP_DEBUG`, `WP_DEBUG_LOG`, `WP_DEBUG_DISPLAY`, `SCRIPT_DEBUG`.
 
 ### Requirements
 
